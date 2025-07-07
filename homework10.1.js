@@ -16,15 +16,14 @@ var arr = [
     },
 ];
 function testEmail(array){
-      let result=[]
+      let result=[];
      for(let i=0;i<array.length;i++){
-    let email=/\b[\w.-]+@(gmail|yahoo)\.com\b/
-    let res=array[i].email.match(email)
+    let email=/\b[\w.-]+@(gmail|yahoo)\.com\b/;
+    let res=array[i].email.match(email);
           if (res!=null){
-              result.push(array[i].email)
-          }
-     }
-    return result
+              result.push(array[i].email);
+          };
+     };
+    return result;
  }
- 
- console.log(testEmail(arr))
+ console.log(testEmail(arr));
