@@ -10,7 +10,7 @@ function price(){
     let num = parseInt(services[key]);
     sum+=num;
     }
-    return sum
+    return sum;
 }
   console.log(price());
   
@@ -23,7 +23,7 @@ function price(){
              minValue = num;
          }
      }
-     return minValue
+     return minValue;
   }
   console.log(minPrice());
   
@@ -36,6 +36,6 @@ function price(){
              maxValue = num;
          }
      }
-     return maxValue
+     return maxValue;
   }
   console.log(maxPrice());
